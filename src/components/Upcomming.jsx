@@ -19,7 +19,7 @@ const Upcomming = () => {
     return (
         <div className=' px-2 py-2 col-span-12 md:col-span-10 '>
             <h1 className=' dark:text-neutral-50 text-blue-500 text-2xl' >
-                |Upcomming Weather
+                |Upcoming Weather
             </h1>
 
             {
