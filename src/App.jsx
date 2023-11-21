@@ -1,4 +1,4 @@
-import React from 'react'
+import {useState} from 'react'
 import Container from './components/Container'
 import Navbar from './components/Navbar'
 import MainWeather from './components/MainWeather'
