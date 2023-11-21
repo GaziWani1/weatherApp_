@@ -1,9 +1,10 @@
-import {useState} from 'react'
+import {useState,useEffect} from 'react'
 import Container from './components/Container'
 import Navbar from './components/Navbar'
 import MainWeather from './components/MainWeather'
 import Upcomming from './components/Upcomming'
 import useGetWeather from './hooks/useGetWeather'
+import { useSelector } from 'react-redux'
 
 const App = () => {
 
